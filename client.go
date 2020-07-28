@@ -3,10 +3,10 @@ package sjmq
 import (
 	"context"
 	"encoding/json"
-	"kubemq-go-master"
 	"reflect"
 
 	"github.com/google/uuid"
+	"github.com/kubemq-io/kubemq-go"
 )
 
 func NewSjmqClient(host string, ctx context.Context) (*Client, error) {
